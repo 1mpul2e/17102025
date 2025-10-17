@@ -58,17 +58,19 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="9ccf58c9-a08c-4667-9f67-9ef683c3b5bb">
+  <attributes uuid="edbf2af3-7699-4b39-ab67-3da1abdaa438">
     <name>Сумма</name>
     <synonym>
       <key>ru</key>
       <value>Сумма</value>
     </synonym>
     <type>
-      <types>String</types>
-      <stringQualifiers>
-        <length>10</length>
-      </stringQualifiers>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+        <scale>2</scale>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
     </type>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
